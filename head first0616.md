@@ -93,6 +93,13 @@ font-weight属性用来控制字体的粗细
     background-image: url(images/background.gif);
     background-repeat: no-repeat;  //不想让背景图像重复
     background-position:top left; //想把它放左上角
+**段落行高**
+
+    行间距的设置比较特殊，可以用一个字来代替相对值（比如em或者%），如果用数字1，说明元素的行间距就是他们自己本身的font-size的1倍  
+    #elixirs{
+    line-height: 1;
+      }
+
  
 
 
